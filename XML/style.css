@@ -1,0 +1,36 @@
+general {
+    display: table;
+    width: auto;
+    background-color:#877c7c;
+    border-spacing: 5px;
+    margin: 15px;
+}
+
+dados {
+    display: table-row;
+    width: auto;
+}
+
+nome {
+    float: left;
+    display: table-column;
+    width: 200px;
+    background-color:#a0d16c;
+    padding: 5px;
+}
+
+formacao {
+    float: left;
+    display: table-column;
+    width: 200px;
+    background-color:#a0d16c;
+    padding: 5px;
+}
+
+salario {
+    float: left;
+    display: table-column;
+    width: 200px;
+    background-color:#a0d16c;
+    padding: 5px;
+}

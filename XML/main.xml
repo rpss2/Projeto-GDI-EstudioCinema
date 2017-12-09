@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE dados[
+<!ELEMENT dados (nome, formacao, salario)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT formacao (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+]>
+
+<general>
+    <dados>
+        <nome>Zeca</nome>
+        <formacao>Ensino Medio</formacao>
+        <salario>2000</salario>
+    </dados>
+
+    <dados>
+        <nome>Zezinho</nome>
+        <formacao>Ensino Medio</formacao>
+        <salario>2500</salario>
+    </dados>
+
+    <dados>
+        <nome>Danielzinho</nome>
+        <formacao>Ensino Fundamental</formacao>
+        <salario>1000</salario>
+    </dados>
+
+    <dados>
+        <nome>Mane</nome>
+        <formacao>Ensino Superior</formacao>
+        <salario>4000</salario>
+    </dados>
+
+    <dados>
+        <nome>Enea</nome>
+        <formacao>Mestrado</formacao>
+        <salario>7000</salario>
+    </dados>
+</general>
